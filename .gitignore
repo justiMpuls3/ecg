@@ -1,9 +1,11 @@
 .vs/
 Debug/
 Release/
-out/
 x64/
+out/
 *.user
-*.suo
-*.ncb
-*.VC.db
+*.ipch
+*.obj
+*.pdb
+*.ilk
+*.idb

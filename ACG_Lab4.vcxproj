@@ -14,14 +14,18 @@
     <ClCompile Include="Source\main.cpp" />
     <ClCompile Include="Source\Globals\globals.cpp" />
     <ClCompile Include="Source\Shaders\Utils\shaderLoader.cpp" />
+    <ClCompile Include="Source\Texture\texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Source\Shaders\SimpleFragmentShader.frag" />
     <None Include="Source\Shaders\SimpleVertexShader.vert" />
+    <None Include="Source\Shaders\TexturedFragmentShader.frag" />
+    <None Include="Source\Shaders\TexturedVertexShader.vert" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Globals\globals.hpp" />
     <ClInclude Include="Source\Shaders\Utils\shaderLoader.hpp" />
+    <ClInclude Include="Source\Texture\texture.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E8D7D48F-7AB1-4260-BCEC-8CC11D9FBC01}</ProjectGuid>
